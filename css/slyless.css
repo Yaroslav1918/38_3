@@ -13,38 +13,36 @@ p,ul {
   margin: 0px;
   padding: 0px;
 }
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 ul {
     list-style: none;
 }
-.item-one {
-margin-right: 51px;
-}
-.item-two {
-margin-right: 57px;
-}
-.item-three {
-margin-right: 57px;
-}
-.item-four {
-margin-right: 48px;
-}
-.item-five {
-margin-right: 0px;
-}
-.list-preference {
+
+.our-achievements .list-preference {
     display: flex;
+    justify-content: space-between;
 }
 
-.item-number {
+.our-achievements .item-number {
 font-style: normal;
 font-weight: bold;
 font-size: 58px;
-line-height: 1.293;
+line-height: 1.29;
 color: var(--green-color);
 margin-bottom: 1px;
 }
-.item-text {
+.our-achievements .item-text {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.3;
